@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+/* ===========================================
+header
+=========================================== */
+
+#header{
+  margin-bottom: 5%;
+}
+
+.header-wrapper__flex{
+  display: flex;
+}
+
+.header-wrapper__flex__item img{
+  width: 250px;
+  height: auto;
+}
+
+.header-wrapper__flex__item{
+  position: relative;  /* chill design のタイトルにかかっている */
+}
+
+.header-wrapper__ttl{
+  font-family: "Lora", serif;
+  font-size: 2rem;
+  position: absolute;
+  top: 18%;
+  left: -18%;
+}
+
+.header-wrapper__menu__list{
+  display: flex;
+  align-items: center;
+}
+
+.header-wrapper__menu__list__item{
+  margin-top: 25%;
+  margin-left: 7%;
+}
+
+.header-wrapper__menu__list__item:first-child{
+  margin-left: 20%;
+}
+
+.header-wrapper__menu__list img{
+  width: 20px;
+  vertical-align: baseline;
+}
+
+/* ===========================================
+contact
+=========================================== */
+
+.contact-wrapper__ttl{
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.contact-wrapper__flex{
+  display: flex;
+}
+
+.contact-wrapper__flex__item1{
+  height: 400px;
+  flex: 1 1;
+  background-image: url(../img/flower2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+}
+
+.contact-wrapper__flex__item2{
+  height: 400px;
+  flex: 1 1;
+  background-color: #dfd8cb;
+}
+
+.contact-wrapper__flex__item2__box{
+  text-align: center;
+  width: 300px;
+  height: 250px;
+  margin: 10% 0 10% 10%;
+}
+
+.contact-wrapper__flex__item2__box__txt{
+  margin: 10% 0;
+}
+
+.contact-wrapper__flex__item2__box__triangle{
+  width: 100px;
+  border-top: 50px solid #BFA678;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+
+/* ===========================================
+footer
+=========================================== */
+
+#footer{
+  background-color: #733D29;
+  opacity: 0.9;
+  padding: 3% 0;
+}
+
+.footer-wrapper__flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;  /* circle3 4 に対して */
+}
+
+.circle__3{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #D9CCB4;
+  position: absolute;
+  top: -10%;
+  left: -2%;
+  z-index: -1;
+}
+
+.circle__4{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #BFA678;
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  z-index: -1;
+}
+
+.footer-wrapper__flex__item h1{
+  font-size: 2rem;
+  color: white;
+}
+
+.footer-wrapper__flex__item__txt{
+  color: white;
+  line-height: 1.6;
+}
+
+#footer .instagram{
+  width: 85px;
+  height: 85px;
+}
+
+#footer .twitter{
+  padding-left: 3%;
+  width: 85px;
+  height: 85px;
+}
+
+.footer-wrapper__flex__item__circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #D9CCB4;
+  line-height: 100px;
+  text-align: center;
+}
+
+
+

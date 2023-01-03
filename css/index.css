@@ -1,0 +1,657 @@
+@charset "UTF-8";
+
+/* ===========================================
+header
+=========================================== */
+
+.header-wrapper__ttl__mobile {
+  display: none;
+}
+
+.header-wrapper {
+  width: 100%;
+  height: 85vh;
+  background-image: url(../img/top.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative; /* h1(header-wrapper__ttl)にかかっている */
+}
+
+.header-wrapper__ttl {
+  position: absolute;
+  right: 1%;
+  bottom: 40%;
+  z-index: 2;
+}
+
+.circle__1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #d9ccb4;
+  position: absolute;
+  top: 35%;
+  right: 15%;
+  z-index: 1;
+}
+
+.circle__2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #bfa678;
+  position: absolute;
+  top: 55%;
+  right: -5%;
+  z-index: 1;
+}
+
+/* ===========================================
+menu
+=========================================== */
+
+#menu {
+  background-color: #733d29;
+  position: relative; /* triangle__1にかかっている */
+}
+
+.triangle__1 {
+  position: absolute;
+  z-index: 1;
+  border-top: 150px solid #733d29;
+  border-right: 100vw solid transparent;
+}
+
+.menu-wrapper {
+  max-width: 750px;
+}
+
+.menu-wrapper__list {
+  padding: 2% 0;
+  display: flex;
+  align-items: center;
+}
+
+.menu-wrapper__list__item {
+  margin-left: 3%;
+  color: white;
+}
+
+.menu-wrapper__list__item:first-child {
+  margin-left: unset;
+}
+
+/* ===========================================
+about
+=========================================== */
+
+#about {
+  background-color: #dfd8cb;
+  padding: 15% 0 1% 0;
+}
+
+.about-wrapper {
+  text-align: center;
+}
+
+.about-wrapper__box {
+  margin: 0 auto;
+  max-width: 750px;
+  height: 250px;
+  border: 1px solid #000;
+}
+
+.about-wrapper__box__ttl {
+  display: inline-block;
+  padding: 5px;
+  background-color: #dfd8cb;
+  position: relative;
+  top: -40px;
+}
+
+.about-wrapper__box .view-more {
+  margin: 3% 0;
+}
+
+/* ===========================================
+service
+=========================================== */
+
+#service {
+  position: relative; /* triangle__2にかかっている */
+  padding: 15% 0 1% 0;
+}
+
+.triangle__2 {
+  position: absolute;
+  z-index: 1;
+  top: -1%;
+  border-top: 150px solid #dfd8cb;
+  border-right: 100vw solid transparent;
+}
+
+.service-wrapper__ttl {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.service-wrapper__flex {
+  display: flex;
+  justify-content: center;
+}
+
+.service-wrapper__flex__item1 {
+  background-color: rgb(223, 215, 215);
+  height: 300px;
+  flex: 1 1 auto;
+  background-image: url(../img/flower1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+}
+
+.service-wrapper__flex__item2 {
+  width: 350px;
+  height: 300px;
+  background-color: #dfd8cb;
+  text-align: center;
+}
+
+.service-wrapper__flex__item2__txt {
+  margin: 17% 0;
+}
+
+.service-wrapper__flex__item3 {
+  height: 300px;
+  flex: 1 1 auto;
+  background-image: url(../img/flower2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+}
+
+/* ===========================================
+works
+=========================================== */
+
+#works {
+  padding: 5% 0 0 0;
+}
+
+#works {
+  position: relative;
+}
+
+.works-wrapper {
+  max-width: 850px;
+  text-align: center;
+}
+
+.works-wrapper__ttl {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.works-wrapper__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.works-wrapper__flex__item {
+  height: auto;
+  border: 1px solid #000;
+  padding: 12px 16px 24px 16px;
+}
+
+.works-wrapper__flex__item__txt {
+  font-size: 0.95rem;
+  text-align: left;
+}
+
+.footcare {
+  width: 240px;
+}
+
+.works-wrapper .view-more {
+  margin-top: 5%;
+}
+
+.triangle__3 {
+  position: absolute;
+  z-index: 1;
+  border-top: 150px solid #fff;
+  border-right: 100vw solid transparent;
+}
+
+/* ===========================================
+price
+=========================================== */
+
+#price {
+  background-color: #dfd8cb;
+  padding: 15% 0 1% 0;
+}
+
+.price-wrapper {
+  text-align: center;
+}
+
+.price-wrapper__box {
+  margin: 0 auto;
+  max-width: 750px;
+  height: 280px;
+  border: 1px solid #000;
+}
+
+.price-wrapper__box__ttl {
+  display: inline-block;
+  padding: 5px;
+  background-color: #dfd8cb;
+  position: relative;
+  top: -40px;
+}
+
+.price-wrapper__box .view-more {
+  margin: 3% 0;
+}
+
+/* ===========================================
+contact
+=========================================== */
+
+#contact {
+  position: relative;
+  padding: 15% 0 0 0;
+}
+
+.triangle__4 {
+  position: absolute;
+  z-index: 1;
+  top: 0%;
+  border-top: 150px solid #dfd8cb;
+  border-right: 100vw solid transparent;
+}
+
+.contact-wrapper__ttl {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.contact-wrapper__flex {
+  display: flex;
+}
+
+.contact-wrapper__flex__item1 {
+  height: 400px;
+  flex: 1 1;
+  background-image: url(../img/flower2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+}
+
+.contact-wrapper__flex__item2 {
+  height: 400px;
+  flex: 1 1;
+  background-color: #dfd8cb;
+}
+
+.contact-wrapper__flex__item2__box {
+  text-align: center;
+  width: 300px;
+  height: 250px;
+  margin: 10% 0 10% 10%;
+}
+
+.contact-wrapper__flex__item2__box__txt {
+  margin: 10% 0;
+}
+
+.contact-wrapper__flex__item2__box__triangle {
+  width: 100px;
+  border-top: 50px solid #bfa678;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+
+/* ===========================================
+footer
+=========================================== */
+
+#footer {
+  background-color: #733d29;
+  opacity: 0.9;
+  padding: 3% 0;
+}
+
+.footer-wrapper__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative; /* circle3 4 に対して */
+}
+
+.circle__3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #d9ccb4;
+  position: absolute;
+  top: -10%;
+  left: -2%;
+  z-index: -1;
+}
+
+.circle__4 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #bfa678;
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  z-index: -1;
+}
+
+.footer-wrapper__flex__item h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+.footer-wrapper__flex__item__txt {
+  color: white;
+  line-height: 1.6;
+}
+
+#footer .instagram {
+  width: 85px;
+  height: 85px;
+}
+
+#footer .twitter {
+  padding-left: 3%;
+  width: 85px;
+  height: 85px;
+}
+
+.footer-wrapper__flex__item__circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #d9ccb4;
+  line-height: 100px;
+  text-align: center;
+}
+
+/* ===========================================
+レスポンシブ max-width:950px
+=========================================== */
+@media screen and (max-width: 950px) {
+  .header-wrapper {
+    overflow: hidden;
+  }
+
+  .triangle__1,
+  .triangle__2,
+  .triangle__3,
+  .triangle__4 {
+    display: none;
+  }
+
+  #menu {
+    padding-bottom: 10%;
+  }
+
+  #about {
+    padding: 12% 0 12% 0;
+  }
+
+  #service {
+    padding: 12% 0 12% 0;
+  }
+
+  #works {
+    padding: 12% 0 12% 0;
+  }
+
+  #price {
+    padding: 12% 0 12% 0;
+  }
+
+  #contact {
+    position: relative;
+    padding: 12% 0 0 0;
+  }
+}
+
+/* ===========================================
+レスポンシブ max-width:850px
+=========================================== */
+@media screen and (max-width: 850px) {
+  .works-wrapper {
+    width: 560px;
+  }
+
+  .none3 {
+    display: none;
+  }
+}
+
+/* ===========================================
+レスポンシブ max-width:750px ハンバーガーメニュー
+=========================================== */
+
+@media screen and (max-width: 750px) {
+  header .drawer {
+    visibility: visible;
+    width: 24px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-top: solid 4px #000;
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  header .drawer::before,
+  header .drawer::after {
+    content: "";
+    display: block;
+    width: 24px;
+    background: #000;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+  }
+
+  header .drawer::before {
+    top: 6px;
+  }
+
+  header .drawer::after {
+    top: 15px;
+  }
+
+  body.nav-open header .drawer {
+    border-top: 0;
+  }
+
+  body.nav-open header .drawer::before {
+    top: 9px;
+    transform: rotate(-45deg);
+  }
+
+  body.nav-open header .drawer::after {
+    top: 9px;
+    transform: rotate(45deg);
+  }
+
+  /* ===========================================
+  ハンバーガーメニュー表示の時の画面
+
+→現在上手く表示されず泣
+
+  =========================================== */
+
+  #menu .menu-wrapper {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    background: #000;
+  }
+
+  #menu .menu-wrapper__list {
+    display: block;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+
+  #menu .menu-wrapper__list__item {
+    margin: 5% auto;
+    font-size: 1.5rem;
+    line-height: 3;
+  }
+}
+
+/* ===========================================
+レスポンシブ max-width:750px
+=========================================== */
+@media screen and (max-width: 750px) {
+  .header-wrapper {
+    height: 45vh;
+    background-size: cover;
+    position: relative; /* h1(header-wrapper__ttl)にかかっている */
+  }
+
+  .header-wrapper__ttl__mobile {
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+  }
+
+  .header-wrapper__ttl {
+    display: none;
+    position: absolute;
+    right: 10%;
+    bottom: 30%;
+    z-index: 2;
+    font-size: min(9vw, 60px);
+  }
+
+  .circle__1 {
+    display: none;
+    width: min(60vw, 80px);
+    height: min(60vw, 80px);
+    border-radius: 50%;
+    background-color: #d9ccb4;
+    position: absolute;
+    top: 40%;
+    right: 40%;
+    z-index: 1;
+  }
+
+  .circle__2 {
+    display: none;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: #bfa678;
+    position: absolute;
+    top: 65%;
+    right: 10%;
+    z-index: 1;
+  }
+
+  #menu {
+    padding-bottom: 0;
+  }
+
+  .service-wrapper__flex {
+    display: flex;
+    justify-content: center;
+    position: relative; /* item1と2を重ねるためのもの */
+  }
+
+  .service-wrapper__flex__item1 {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 15%;
+    right: 45%;
+    z-index: -1;
+  }
+
+  .service-wrapper__flex__item3 {
+    display: none;
+  }
+
+  .works-wrapper {
+    max-width: 700px;
+  }
+
+  .works-wrapper__flex a {
+    margin: 0 auto;
+  }
+
+  .none2 {
+    display: none;
+  }
+
+  .footcare {
+    width: 500px;
+  }
+
+  #contact {
+    padding: 12% 0 12% 0;
+  }
+
+  .contact-wrapper__flex {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .contact-wrapper__flex__item1 {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: 15%;
+    right: 45%;
+    z-index: -1;
+  }
+
+  .contact-wrapper__flex__item2 {
+    width: 350px;
+    height: 300px;
+  }
+
+  .footer-wrapper__flex {
+    display: block;
+    position: relative; /* circle3 4 に対して */
+  }
+
+  .circle__3,
+  .circle__4 {
+    display: none;
+  }
+
+.footer-wrapper__flex__item h1{
+  display: none;
+}
+
+}
